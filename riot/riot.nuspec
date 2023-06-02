@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with JReleaser 1.7.0-SNAPSHOT at 2023-06-02T05:59:45.932074988Z -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- required -->
+    <id>riot</id>
+    <version>3.0.1</version>
+    <authors>Julien Ruaux</authors>
+    <description>RIOT is a series of command-line utilities designed to help you get data in and out of Redis.
+
+It supports many different sources and targets:
+ - Relational databases
+ - Files (CSV, JSON, XML)
+ - Data generators (Redis data structures, Faker)
+ - and Redis itself with live and/or snapshot replication.
+</description>
+    <!-- optional -->
+    <title>RIOT</title>
+    <projectUrl>https://github.com/redis-developer/riot</projectUrl>
+    <copyright>2020 Julien Ruaux</copyright>
+    <licenseUrl>https://spdx.org/licenses/Apache-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>riot redis input output tool data import export</tags>
+    <summary>Get data in and out of Redis with RIOT</summary>
+    <projectSourceUrl>https://github.com/redis-developer/riot</projectSourceUrl>
+    <packageSourceUrl>https://github.com/redis-developer/chocolatey-bucket</packageSourceUrl>
+    <docsUrl>https://developer.redis.com/riot</docsUrl>
+    <bugTrackerUrl>https://github.com/redis-developer/riot/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/redis-developer/riot/releases/tag/v3.0.1</releaseNotes>
+    <iconUrl>https://raw.githubusercontent.com/redis-developer/riot/main/src/media/icon_128x128.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
