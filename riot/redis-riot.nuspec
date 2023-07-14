@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generated with JReleaser 1.8.0-SNAPSHOT at 2023-07-11T08:23:56.551766451Z -->
+<!-- Generated with JReleaser 1.8.0-SNAPSHOT at 2023-07-14T05:48:58.215271027Z -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- required -->
     <id>redis-riot</id>
-    <version>3.1.3</version>
+    <version>3.1.4</version>
     <authors>Julien Ruaux</authors>
     <description>RIOT is a series of command-line utilities designed to help you get data in and out of Redis.
 
@@ -27,7 +27,7 @@ It supports many different sources and targets:
     <packageSourceUrl>https://github.com/redis-developer/chocolatey-bucket</packageSourceUrl>
     <docsUrl>https://developer.redis.com/riot</docsUrl>
     <bugTrackerUrl>https://github.com/redis-developer/riot/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/redis-developer/riot/releases/tag/v3.1.3</releaseNotes>
+    <releaseNotes>https://github.com/redis-developer/riot/releases/tag/v3.1.4</releaseNotes>
     <iconUrl>https://raw.githubusercontent.com/redis-developer/riot/main/src/media/icon_128x128.png</iconUrl>
   </metadata>
   <files>
